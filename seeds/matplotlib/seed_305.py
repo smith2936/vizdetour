@@ -1,0 +1,17 @@
+import itertools
+import matplotlib.pyplot as plt
+
+fontsizes = itertools.cycle([8, 16, 24, 32])
+
+def example_plot(ax):
+    ax.plot([1, 2])
+    ax.set_xlabel('x-label', fontsize=next(fontsizes))
+    ax.set_ylabel('y-label', fontsize=next(fontsizes))
+    ax.set_title('Title', fontsize=next(fontsizes))
+
+
+fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1)
+example_plot(ax1)
+example_plot(ax2)
+fig.tight_layout()
+plt.show()

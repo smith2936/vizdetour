@@ -1,0 +1,19 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(-3, 6, 500)
+
+fig1 = plt.figure()
+ax0, ax1 = fig1.subplots(1, 2, sharex=True)
+
+ax0.plot(x, x)
+ax0.set_yscale('symlog')
+ax0.grid()
+ax0.set_title('symlog')
+
+ax1.plot(x, x)
+ax1.set_yscale('asinh')
+ax1.grid()
+ax1.set_title('asinh')
+
+plt.show()

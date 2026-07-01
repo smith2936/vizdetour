@@ -1,0 +1,44 @@
+import plotly.graph_objects as go
+
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(
+    x=[1, 2, 3],
+    y=[2, 1, 3],
+    legendgroup="group",  # this can be any string, not just "group"
+    name="first legend group",
+    mode="markers",
+    marker=dict(color="Crimson", size=10)
+))
+
+fig.add_trace(go.Scatter(
+    x=[1, 2, 3],
+    y=[2, 2, 2],
+    legendgroup="group",
+    name="first legend group - average",
+    mode="lines",
+    line=dict(color="Crimson"),
+    showlegend=False,
+))
+
+fig.add_trace(go.Scatter(
+    x=[1, 2, 3],
+    y=[4, 9, 2],
+    legendgroup="group2",
+    name="second legend group",
+    mode="markers",
+    marker=dict(color="MediumPurple", size=10)
+))
+
+fig.add_trace(go.Scatter(
+    x=[1, 2, 3],
+    y=[5, 5, 5],
+    legendgroup="group2",
+    name="second legend group - average",
+    mode="lines",
+    line=dict(color="MediumPurple"),
+    showlegend=False
+))
+
+fig.update_layout(title=dict(text="Try Clicking on the Legend Items!"))
+fig.show(renderer="json")

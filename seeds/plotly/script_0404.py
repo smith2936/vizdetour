@@ -1,0 +1,17 @@
+import plotly.figure_factory as ff
+
+data_matrix = [['Country', 'Year', 'Population'],
+               ['United States', 2000, 282200000],
+               ['Canada', 2000, 27790000],
+               ['United States', 2005, 295500000],
+               ['Canada', 2005, 32310000],
+               ['United States', 2010, 309000000],
+               ['Canada', 2010, 34000000]]
+
+fig = ff.create_table(data_matrix, index=True)
+
+# Make text size larger
+for i in range(len(fig.layout.annotations)):
+    fig.layout.annotations[i].font.size = 20
+
+fig.show(renderer="json")

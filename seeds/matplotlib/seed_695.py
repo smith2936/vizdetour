@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+rng = np.random.default_rng(19680801)
+
+fig, ax = plt.subplots(layout='constrained', figsize=(4, 4))
+
+ax.plot(np.arange(30))
+
+sec = ax.secondary_xaxis(location=0)
+sec.set_xticks([5, 15, 25], labels=['\nOughts', '\nTeens', '\nTwenties'])
+plt.show()

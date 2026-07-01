@@ -1,0 +1,14 @@
+import plotly.graph_objects as go
+
+fig = go.Figure(go.Scatterternary(
+    a = [3, 2, 5],
+    b = [2, 5, 2],
+    c = [5, 2, 2],
+    mode = "markers+text",
+    text = ["A", "B", "C"],
+    texttemplate = "%{text}<br>(%{a:.2f}, %{b:.2f}, %{c:.2f})",
+    textposition = "bottom center",
+    textfont = {'family': "Times", 'size': [18, 21, 20], 'color': ["IndianRed", "MediumPurple", "DarkOrange"]}
+))
+
+fig.show(renderer="json")

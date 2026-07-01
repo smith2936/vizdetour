@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib import patheffects
+
+fig, ax = plt.subplots(figsize=(6, 6))
+ax.plot([0, 1], [0, 1], label="Line",
+        path_effects=[patheffects.withTickedStroke(spacing=7, angle=135)])
+
+ax.legend()
+plt.show()

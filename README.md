@@ -9,7 +9,6 @@ This repository contains the artifact for our paper submission, **"VIZDETOUR: De
 ## 📁 Repository Structure
 
 * `dataviz-bugs-detected.csv`: The complete evaluation dataset detailing the real-world bugs detected by VIZDETOUR across the target visualization libraries.
-* `setup.sh`: Shell script to automate the creation and configuration of the Conda environment and dependencies.
 * `workflow_*.py`: Core automated testing execution entry points for each library (`workflow_bokeh.py`, `workflow_matplotlib.py`, `workflow_plotly.py`).
 * `utils_*.py`: Utilities for each library.
 * `seeds/`: Directory containing the initial seeding visualization scripts used as inputs for our testing framework.
@@ -26,18 +25,19 @@ The testing environment relies on isolated Python packaging. You must have **Ana
 
 ### Environment Setup
 
-We provide an automated setup script that creates a dedicated Conda environment and provisions all necessary runtime and testing dependencies (including both conda and pip-pinned components).
-
 1. Open your terminal and navigate to the project root directory:
 ```bash
 cd vizdetour
 ```
 
 
-2. Make the setup script executable and run it:
+2. Setup the environment:
 ```bash
-chmod +x setup.sh
-./setup.sh
+conda create -n vizdetour python=3.13 -y
+conda activate vizdetour
+pip install -r requirements.txt
+conda install -c conda-forge firefox geckodriver -y
+playwright install
 ```
 
 

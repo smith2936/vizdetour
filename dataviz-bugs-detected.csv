@@ -1,66 +1,66 @@
-ID,Library,Confirmed,New,PR,Fixed,Symptom,Buggy Component,Mutation
-https://github.com/bokeh/bokeh/issues/15004,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Layout,Change & Recover
-https://github.com/bokeh/bokeh/issues/15006,bokeh,Yes,Yes,Yes,?,Incorrect Plot,Scale,Change & Recover
-https://github.com/bokeh/bokeh/issues/15009,bokeh,No,-,-,-,-,-,-
-https://github.com/bokeh/bokeh/issues/15015,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15026,bokeh,Yes,Yes,?,?,Incorrect Plot,Visual Encoding,Change & Recover
-https://github.com/bokeh/bokeh/issues/15028,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Scale,Change & Recover
-https://github.com/bokeh/bokeh/issues/15030,bokeh,Yes,Yes,?,?,Incorrect Plot,Layout,Change & Recover
-https://github.com/bokeh/bokeh/issues/15031,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15032,bokeh,Yes,Yes,Yes,?,Incorrect Plot,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15033,bokeh,?,?,?,?,Incorrect Plot,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15034,bokeh,?,?,?,?,Incorrect Plot,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15038,bokeh,Yes,Yes,Yes,?,Incorrect Plot,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15040,bokeh,No,-,-,-,-,-,-
-https://github.com/bokeh/bokeh/issues/15041,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Scale,Change & Recover
-https://github.com/bokeh/bokeh/issues/15080,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Layout,Change & Recover
-https://github.com/bokeh/bokeh/issues/15119,bokeh,?,?,?,?,Crash,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15120,bokeh,No,-,-,-,-,-,-
-https://github.com/bokeh/bokeh/issues/15121,bokeh,?,?,?,?,Crash,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15122,bokeh,No,-,-,-,-,-,-
-https://github.com/bokeh/bokeh/issues/15126,bokeh,Yes,Yes,Yes,?,Incorrect Plot,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15127,bokeh,No,-,-,-,-,-,-
-https://github.com/bokeh/bokeh/issues/15128,bokeh,?,?,?,?,Incorrect Plot,Visual Encoding,Change & Recover
-https://github.com/bokeh/bokeh/issues/15129,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
-https://github.com/bokeh/bokeh/issues/15130,bokeh,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/29156,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Visual Encoding,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/29179,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Visual Encoding,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/30866,matplotlib,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/31073,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Annotation,Remove & Readd
-https://github.com/matplotlib/matplotlib/issues/31084,matplotlib,Yes,No,Yes,?,Incorrect Plot,Layout,Remove & Readd
-https://github.com/matplotlib/matplotlib/issues/31086,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Scale,Idempotent Update
-https://github.com/matplotlib/matplotlib/issues/31109,matplotlib,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/31135,matplotlib,Yes,Yes,Yes,Yes (doc),Incorrect Plot,Layout,Idempotent Update
-https://github.com/matplotlib/matplotlib/issues/31136,matplotlib,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/31147,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Layout,Idempotent Update
-https://github.com/matplotlib/matplotlib/issues/31197,matplotlib,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/31205,matplotlib,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/31225,matplotlib,Yes,No,Yes,Yes (code),Incorrect Plot,Visual Encoding,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/31229,matplotlib,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/31232,matplotlib,Yes,Yes,Yes,Yes (doc),Incorrect Plot,Scale,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/31233,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Idempotent Update
-https://github.com/matplotlib/matplotlib/issues/31246,matplotlib,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/31257,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/31266,matplotlib,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/31276,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Layout,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/31277,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Layout,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/31288,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/31289,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/31319,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Layout,Remove & Readd
-https://github.com/matplotlib/matplotlib/issues/31330,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Layout,Remove & Readd
-https://github.com/matplotlib/matplotlib/issues/31335,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Change & Recover
-https://github.com/matplotlib/matplotlib/issues/31344,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Visual Encoding,Remove & Readd
-https://github.com/matplotlib/matplotlib/issues/31404,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Annotation,Remove & Readd
-https://github.com/matplotlib/matplotlib/issues/31730,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Annotation,Remove & Readd
-https://github.com/matplotlib/matplotlib/issues/31748,matplotlib,Yes,Yes,?,?,Incorrect Plot,Annotation,Remove & Readd
-https://github.com/matplotlib/matplotlib/issues/31786,matplotlib,No,-,-,-,-,-,-
-https://github.com/matplotlib/matplotlib/issues/31787,matplotlib,Yes,No,?,?,Incorrect Plot,Visual Encoding,Idempotent Update
-https://github.com/plotly/plotly.py/issues/5613,plotly,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Idempotent Update
-https://github.com/plotly/plotly.py/issues/5614,plotly,Yes,Yes,?,?,Incorrect Plot,Layout,Change & Recover
-https://github.com/plotly/plotly.py/issues/5615,plotly,Yes,Yes,?,?,Incorrect Plot,Layout,Change & Recover
-https://github.com/plotly/plotly.py/issues/5616,plotly,Yes,Yes,Yes,?,Incorrect Plot,Annotation,Change & Recover
-https://github.com/plotly/plotly.py/issues/5617,plotly,?,?,?,?,Incorrect Plot,Annotation,Change & Recover
-https://github.com/plotly/plotly.py/issues/5618,plotly,?,?,?,?,Incorrect Plot,Visual Encoding,Change & Recover
-https://github.com/plotly/plotly.py/issues/5619,plotly,?,?,?,?,Incorrect Plot,Visual Encoding,Change & Recover
-https://github.com/plotly/plotly.py/issues/5620,plotly,Yes,Yes,?,?,Incorrect Plot,Visual Encoding,Idempotent Update
-https://github.com/plotly/plotly.py/issues/5621,plotly,Yes,Yes,?,?,Incorrect Plot,Visual Encoding,Idempotent Update
+ID,Keywords,Duplicate,Library,Confirmed,New,PR,Fixed,Symptom,Buggy Component,Mutation
+https://github.com/bokeh/bokeh/issues/15004,"figure, min_border",8,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Layout,Change & Recover
+https://github.com/bokeh/bokeh/issues/15006,"y_range, min_interval",101,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Scale,Change & Recover
+https://github.com/bokeh/bokeh/issues/15009,"y_range, max_interval",59,bokeh,No,-,-,-,-,-,-
+https://github.com/bokeh/bokeh/issues/15015,"ticker, num_minor_ticks",68,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15026,"Arrow, OpenHead, line_color",3,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Visual Encoding,Change & Recover
+https://github.com/bokeh/bokeh/issues/15028,"figure, y_range, flipped",47,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Scale,Change & Recover
+https://github.com/bokeh/bokeh/issues/15030,"row, spacing",11,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Layout,Change & Recover
+https://github.com/bokeh/bokeh/issues/15031,"xticks, use_scientific",2,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15032,"DateSlider, disabled",5,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15033,"ScaleBar, orientation",5,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15034,"Button, resizable",27,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15038,"DatetimeRangeSlider, format",3,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15040,"figure, match_aspect",2,bokeh,No,-,-,-,-,-,-
+https://github.com/bokeh/bokeh/issues/15041,"y_range, range_padding",60,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Scale,Change & Recover
+https://github.com/bokeh/bokeh/issues/15080,"plot, frame_height",2,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Layout,Change & Recover
+https://github.com/bokeh/bokeh/issues/15119,"ticker, desired_num_ticks",129,bokeh,Yes,Yes,Yes,Yes (code),Crash,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15120,"axis, fixed_location",7,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Layout,Change & Recover
+https://github.com/bokeh/bokeh/issues/15121,"DateFormatter, format",2,bokeh,Yes,Yes,Yes,Yes (code),Crash,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15122,"DataRange1d, max_interval",60,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15126,"FileInput, TextInput, disabled",4,bokeh,Yes,Yes,Yes,?,Incorrect Plot,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15127,"DateTimeRangeSlider, format",2,bokeh,No,-,-,-,-,-,-
+https://github.com/bokeh/bokeh/issues/15128,"glyph, length_units",1,bokeh,?,?,?,?,Incorrect Plot,Visual Encoding,Change & Recover
+https://github.com/bokeh/bokeh/issues/15129,"TabPanel, title",3,bokeh,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
+https://github.com/bokeh/bokeh/issues/15130,"DateRangePicker, inline",6,bokeh,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/29156,"Poly3DCollection, shade",1,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Visual Encoding,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/29179,"pcolormesh, shading",1,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Visual Encoding,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/30866,"EllipseCollection, offsets",1,matplotlib,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/31073,"Suptitle, Figure",6,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Annotation,Remove & Readd
+https://github.com/matplotlib/matplotlib/issues/31084,"colorbar, remove",1,matplotlib,Yes,No,Yes,?,Incorrect Plot,Layout,Remove & Readd
+https://github.com/matplotlib/matplotlib/issues/31086,ticks,15,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Scale,Idempotent Update
+https://github.com/matplotlib/matplotlib/issues/31109,set_xticklabels,4,matplotlib,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/31135,set_figure,19,matplotlib,Yes,Yes,Yes,Yes (doc),Incorrect Plot,Layout,Idempotent Update
+https://github.com/matplotlib/matplotlib/issues/31136,set_transform,43,matplotlib,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/31147,save,1,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Layout,Idempotent Update
+https://github.com/matplotlib/matplotlib/issues/31197,save,1,matplotlib,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/31205,set_position,12,matplotlib,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/31225,set_edgecolor,33,matplotlib,Yes,No,Yes,Yes (code),Incorrect Plot,Visual Encoding,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/31229,constrained,1,matplotlib,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/31232,set_aspect,10,matplotlib,Yes,Yes,Yes,Yes (doc),Incorrect Plot,Scale,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/31233,set_fc,35,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Idempotent Update
+https://github.com/matplotlib/matplotlib/issues/31246,set_wrap,32,matplotlib,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/31257,set_fillstyle,34,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/31266,set_alpha,10,matplotlib,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/31276,set_aspect,10,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Layout,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/31277,constrained,1,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Layout,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/31288,set_xlabel,10,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/31289,set_linestyle,16,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/31319,"subfigure, remove",7,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Layout,Remove & Readd
+https://github.com/matplotlib/matplotlib/issues/31330,"colorbar, remove",1,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Layout,Remove & Readd
+https://github.com/matplotlib/matplotlib/issues/31335,set_color,6,matplotlib,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Change & Recover
+https://github.com/matplotlib/matplotlib/issues/31344,add contour,1,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Visual Encoding,Remove & Readd
+https://github.com/matplotlib/matplotlib/issues/31404,contour remove,2,matplotlib,Yes,Yes,Yes,Yes (code),Crash,Annotation,Remove & Readd
+https://github.com/matplotlib/matplotlib/issues/31730,text remove readd,2,matplotlib,Yes,Yes,Yes,Yes (code),Incorrect Plot,Annotation,Remove & Readd
+https://github.com/matplotlib/matplotlib/issues/31748,annotation remove readd,5,matplotlib,Yes,Yes,?,?,Incorrect Plot,Annotation,Remove & Readd
+https://github.com/matplotlib/matplotlib/issues/31786,"Circles, alpha",9,matplotlib,No,-,-,-,-,-,-
+https://github.com/matplotlib/matplotlib/issues/31787,set_position,12,matplotlib,Yes,No,?,?,Incorrect Plot,Visual Encoding,Idempotent Update
+https://github.com/plotly/plotly.py/issues/5613,"contours, size",61,plotly,Yes,Yes,Yes,?,Incorrect Plot,Visual Encoding,Idempotent Update
+https://github.com/plotly/plotly.py/issues/5614,"rangeslider, yaxis, rangemode",11,plotly,Yes,Yes,Yes,?,Incorrect Plot,Layout,Change & Recover
+https://github.com/plotly/plotly.py/issues/5615,"marker, colorbar, thicknessmode",4,plotly,Yes,Yes,Yes,?,Incorrect Plot,Layout,Change & Recover
+https://github.com/plotly/plotly.py/issues/5616,"marker, colorbar, tickfont, textcase",36,plotly,Yes,Yes,Yes,?,Incorrect Plot,Annotation,Change & Recover
+https://github.com/plotly/plotly.py/issues/5617,"cells, format",1,plotly,?,?,?,?,Incorrect Plot,Annotation,Change & Recover
+https://github.com/plotly/plotly.py/issues/5618,"Bar, orientation",6,plotly,?,?,?,?,Incorrect Plot,Visual Encoding,Change & Recover
+https://github.com/plotly/plotly.py/issues/5619,"Violin, box, line, color",89,plotly,?,?,?,?,Incorrect Plot,Visual Encoding,Change & Recover
+https://github.com/plotly/plotly.py/issues/5620,"Sunburst, marker, colors",1,plotly,No,-,-,-,-,-,-
+https://github.com/plotly/plotly.py/issues/5621,"error_y, array",6,plotly,No,-,-,-,-,-,-
